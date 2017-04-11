@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/content_main"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="com.example.kyecook.prac4.MainActivityFragment"-->
+    <!--tools:showIn="@layout/activity_main">-->
+
+    <!--<TextView-->
+        <!--android:text="Hello World"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/textView"-->
+        <!--android:gravity="center" />-->
+<!--</LinearLayout>-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivityFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            app:srcCompat="@drawable/c1"
+            android:id="@+id/imageView"
+            android:layout_weight="1"
+            android:contentDescription="@string/celebHead"/>
+
+
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/gridView"
+            android:layout_weight="1"
+            android:numColumns="2" />
+    </LinearLayout>
+
+
+</FrameLayout>
+<!--<LinearLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:orientation="vertical">-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_weight="1">-->
+    <!---->
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:contentDescription="@string/celebrity_head_image"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:srcCompat="@drawable/hugh_jackman"-->
+            <!--android:id="@+id/imageView" />-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_weight="1">-->
+    <!---->
+        <!--<GridView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/gridView"-->
+            <!--android:numColumns="2"/>-->
+    <!---->
+    <!--</LinearLayout>-->
+
+<!--</LinearLayout>-->

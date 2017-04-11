@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Prac4</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="celebrity_head_image">Celebrity head Image</string>
+    <string name="celebHead">Celeb Head</string>
+</resources>
